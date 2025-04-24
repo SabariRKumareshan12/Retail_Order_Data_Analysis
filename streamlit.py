@@ -134,11 +134,11 @@ elif category == "My Questions":
     selected_query = my_queries[query_index]
 
 if query_description == "Home":
-    st.subheader("Welcome")
-    st.write(
-        "- Analyze **sales trends** over time" 
-        "- Understand **customer purchasing behavior**" 
-        "- Discover **top-performing products**"
+    st.markdown("##### 🧠 What you can do here:")
+    st.markdown("""
+         - Analyze **sales trends** over time" 
+         - Understand **customer purchasing behavior** 
+         - Discover **top-performing products**
         "Navigate through the sidebar to explore specific analyses."
     )
 else:
