@@ -139,7 +139,7 @@ if query_description == "Home":
          - Analyze **sales trends** over time" 
          - Understand **customer purchasing behavior** 
          - Discover **top-performing products**
-        "Navigate through the sidebar to explore specific analyses."
+         Navigate through the sidebar to explore specific analyses."""
     )
 else:
     st.subheader(f"Selected Query: {query_description}")
