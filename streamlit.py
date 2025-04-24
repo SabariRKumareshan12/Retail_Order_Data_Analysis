@@ -134,7 +134,7 @@ elif category == "My Questions":
     selected_query = my_queries[query_index]
 
 if query_description == "Home":
-    st.markdown("###### 🧠 What you can do here:")
+    st.markdown("##### 🧠 What you can do here:")
     st.markdown("""
          - Analyze **sales trends** over time" 
          - Understand **customer purchasing behavior** 
