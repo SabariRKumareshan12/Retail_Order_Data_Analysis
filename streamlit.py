@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pg8000
+import base64
 
 # Function to connect to the PostgreSQL database
 def get_db_connection():
