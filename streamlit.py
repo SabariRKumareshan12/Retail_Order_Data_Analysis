@@ -136,11 +136,12 @@ elif category == "My Questions":
 if query_description == "Home":
     st.markdown("##### 🧠 What you can do here:")
     st.markdown("""
-         - Analyze **sales trends** over time" 
+         - Analyze **sales trends** over time 
          - Understand **customer purchasing behavior** 
-         - Discover **top-performing products**
-         Navigate through the sidebar to explore specific analyses."""
-    )
+         - Discover **top-performing products** """)
+    
+    st.markdown("Navigate through the sidebar to explore specific analyses")
+    
 else:
     st.subheader(f"Selected Query: {query_description}")
     if st.sidebar.button("Submit Query", type="secondary"):
