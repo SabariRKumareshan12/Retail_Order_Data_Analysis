@@ -114,7 +114,7 @@ my_queries = [
     "select p.sub_category as products from retail_order as o join product_detail as p on o.product_id = p.product_id group by p.sub_category, o.order_year having sum(o.profit) > 0 intersect select p.sub_category from retail_order as o join product_detail as p on o.product_id = p.product_id group by p.sub_category having count(distinct o.order_year)=(select count(distinct order_year)from retail_order);"
 ]
 
-st.title("Retail Order Data Analysis :rocket:")
+st.title("Retail Order Data Analysis 📊:rocket:")
 st.subheader("Explore SQL queries")
 st.sidebar.title("Select a Query")
 category = st.sidebar.radio("Select Query Category:", ["Business Insights","GUVI Questions", "My Questions"])
