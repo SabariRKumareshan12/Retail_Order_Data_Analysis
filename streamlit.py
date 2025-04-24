@@ -47,6 +47,7 @@ def set_background_image(image_path):
         """,
         unsafe_allow_html=True
     )
+
 set_background_image(r"order_pic.jpg")
 
 Business_Insights=["Home","Top-Selling Products","Monthly Sales Analysis","Product Performance","Regional Sales Analysis","Discount Analysis"]
