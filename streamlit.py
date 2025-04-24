@@ -54,29 +54,29 @@ set_background_image(r"image1.jpg")
 Business_Insights=["Home","Top-Selling Products","Monthly Sales Analysis","Product Performance","Regional Sales Analysis","Discount Analysis"]
 
 guvi_questions = [
-    "1. # Find top 10 highest revenue generating products",
-    "2. # Find the top 5 cities with the highest profit margins",
-    "3. # Calculate the total discount given for each category",
-    "4. # Find the average sale price per product category",
-    "5. # Find the region with the highest average sale price",
-    "6. # Find the total profit per category",
-    "7. # Identify the top 3 segments with the highest quantity of orders",
-    "8. # Determine the average discount percentage given per region",
-    "9. # Find the product category with the highest total profit",
-    "10. # Calculate the total revenue generated per year"
+    "1. Find top 10 highest revenue generating products",
+    "2. Find the top 5 cities with the highest profit margins",
+    "3. Calculate the total discount given for each category",
+    "4. Find the average sale price per product category",
+    "5. Find the region with the highest average sale price",
+    "6. Find the total profit per category",
+    "7. Identify the top 3 segments with the highest quantity of orders",
+    "8. Determine the average discount percentage given per region",
+    "9. Find the product category with the highest total profit",
+    "10. Calculate the total revenue generated per year"
 ]
 
 my_questions = [
-    "11. # Determine the yearly sales trend by product category",
-    "12. # List Top 10 cities that have purchased products from all sub-categories",
-    "13. # Compare total revenue by region and category",
-    "14. # Find the month with the highest total sales in each year",
-    "15. # Calculate total sales, cost, and profit for each product category",
-    "16. # Identify cities that only ordered from one product category",
-    "17. # Calculate the total revenue generated on December month",
-    "18. # Identify the top 3 most frequently ordered product categories",
-    "19. # Identify the total number of products sold per year",
-    "20. # Identify the sub-categories that consistently generate profit across all years"
+    "11. Determine the yearly sales trend by product category",
+    "12. List Top 10 cities that have purchased products from all sub-categories",
+    "13. Compare total revenue by region and category",
+    "14. Find the month with the highest total sales in each year",
+    "15. Calculate total sales, cost, and profit for each product category",
+    "16. Identify cities that only ordered from one product category",
+    "17. Calculate the total revenue generated on December month",
+    "18. Identify the top 3 most frequently ordered product categories",
+    "19. Identify the total number of products sold per year",
+    "20. Identify the sub-categories that consistently generate profit across all years"
 ]
 
 Business_Insights_queries = [
