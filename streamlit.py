@@ -115,8 +115,6 @@ my_queries = [
 ]
 
 st.title("Retail Order Data Analysis 📊:rocket:")
-st.markdown("#### Welcome")
-st.markdown("This dashboard provides insights into retail order data, including sales, profits, discounts, and more.")
 st.sidebar.title("Select a Query")
 category = st.sidebar.radio("Select Query Category:", ["Business Insights","GUVI Questions", "My Questions"])
 
@@ -134,6 +132,8 @@ elif category == "My Questions":
     selected_query = my_queries[query_index]
 
 if query_description == "Home":
+    st.markdown("#### Welcome")
+    st.markdown("This dashboard provides insights into retail order data, including sales, profits, discounts, and more.")
     st.markdown("##### 🧠 What you can do here:")
     st.markdown("""
          - Analyze **sales trends** over time 
