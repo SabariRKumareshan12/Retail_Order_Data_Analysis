@@ -128,4 +128,4 @@ else:
         except Exception as e:
             st.error(f"Error executing query: {e}")
 
-st.markdown("Thank you :grin:")
+st.markdown("Thank you :blush:")
